@@ -10,7 +10,6 @@ from prettify import header, blue, green, red, warn, bold, underline
 from pathlib import Path
 
 from os import listdir, path
-from graph import Graph
 
 def parse_args():
     parser = ArgumentParser(
